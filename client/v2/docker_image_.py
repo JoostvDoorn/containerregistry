@@ -25,12 +25,10 @@ import json
 import os
 import tarfile
 
-from containerregistry.client import docker_creds
 from containerregistry.client import docker_name
 from containerregistry.client.v2 import docker_digest
 from containerregistry.client.v2 import docker_http
 
-import httplib2
 import six
 import six.moves.http_client
 

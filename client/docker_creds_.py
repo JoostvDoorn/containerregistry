@@ -27,10 +27,6 @@ import logging
 import os
 import subprocess
 
-from containerregistry.client import docker_name
-import httplib2
-from oauth2client import client as oauth2client
-
 import six
 
 

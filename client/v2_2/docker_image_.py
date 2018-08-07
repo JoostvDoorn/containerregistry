@@ -26,11 +26,9 @@ import os
 import tarfile
 import threading
 
-from containerregistry.client import docker_creds
 from containerregistry.client import docker_name
 from containerregistry.client.v2_2 import docker_digest
 from containerregistry.client.v2_2 import docker_http
-import httplib2
 import six
 from six.moves import zip  # pylint: disable=redefined-builtin
 import six.moves.http_client

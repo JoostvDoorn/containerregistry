@@ -26,8 +26,6 @@ from containerregistry.client import docker_creds
 from containerregistry.client import docker_name
 from containerregistry.client.v2 import docker_creds as v2_creds
 
-import httplib2
-
 import six.moves.http_client
 import six.moves.urllib.parse
 

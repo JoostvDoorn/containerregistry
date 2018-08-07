@@ -21,12 +21,8 @@ from __future__ import print_function
 import logging
 import concurrent.futures
 
-from containerregistry.client import docker_creds
 from containerregistry.client import docker_name
 from containerregistry.client.v2 import docker_http
-from containerregistry.client.v2 import docker_image
-
-import httplib2
 
 import six.moves.http_client
 import six.moves.urllib.parse

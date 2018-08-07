@@ -30,12 +30,9 @@ import tarfile
 import tempfile
 import threading
 
-from containerregistry.client import docker_creds
 from containerregistry.client import docker_name
 from containerregistry.client.v1 import docker_creds as v1_creds
 from containerregistry.client.v1 import docker_http
-
-import httplib2
 
 import six
 from six.moves import range  # pylint: disable=redefined-builtin

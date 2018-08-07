@@ -18,9 +18,7 @@ from __future__ import division
 
 from __future__ import print_function
 
-from containerregistry.client import docker_creds
 from containerregistry.client import docker_name
-import httplib2
 
 
 class BadStatusException(Exception):
